@@ -33,10 +33,6 @@ a {
     margin: 0 auto;
 }
 
-.header {
-    border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
-}
 
 .container-header {
     display: flex;
@@ -59,6 +55,7 @@ a {
 
 .header {
     padding: 24px 0;
+    border-bottom: 1px solid #e79fce;
 }
 
 .nav-list {
@@ -75,6 +72,7 @@ color: #4D5AE5;
 font-family: "Raleway", sans-serif;
 line-height: 1.17;
 margin-right: 76px;
+padding: 24px 0;
 }
 
 
@@ -108,6 +106,7 @@ address {
 .address-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .address .address-item .address-link {
