@@ -106,7 +106,6 @@ address {
 .address-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .address .address-item .address-link {
@@ -114,6 +113,7 @@ address {
     line-height: 24px;
     color: #434455;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .address-item .address-link:hover,
