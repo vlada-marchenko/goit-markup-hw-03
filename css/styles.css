@@ -36,6 +36,7 @@ a {
 
 .container-header {
     display: flex;
+    align-items: center;
 
 }
 
@@ -71,7 +72,6 @@ color: #4D5AE5;
 font-family: "Raleway", sans-serif;
 line-height: 1.17;
 margin-right: 76px;
-padding: 24px 0;
 }
 
 
@@ -104,11 +104,13 @@ padding: 24px 0;
 
 address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .address-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .address .address-item .address-link {
@@ -116,7 +118,6 @@ address {
     line-height: 24px;
     color: #434455;
     letter-spacing: 0.02em;
-    padding: 24px 0;
 }
 
 .address-item .address-link:hover,
@@ -136,9 +137,8 @@ address {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 48px;
     max-width: 496px;
-    margin: 0 auto;
+    margin: 0 auto 48px;
 }
 
 .main-button {
@@ -225,8 +225,6 @@ address {
     text-transform: capitalize;
     color: #2E2F42;
     text-align: center;
-    padding-top: 120px;
-    margin: 0 auto;
     margin-bottom: 72px;
 }
 
@@ -249,7 +247,6 @@ img {
 }
 
 .team-list {
-    padding-bottom: 120px;
     display: flex;
     justify-content: space-between;
     gap: 24px;
@@ -283,7 +280,6 @@ img {
 }
 
 .container-portfolio-text {
-    gap: 8px;
     border: 1px solid #e7e9fc;
     border-top: none;
     padding: 32px 16px;
@@ -308,8 +304,6 @@ img {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-top: 32px;
-    padding-left: 16px;
     margin-bottom: 8px
 }
 
@@ -318,8 +312,6 @@ img {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 32px;
-    padding-left: 16px;
 }
 
 .footer {
@@ -338,6 +330,8 @@ img {
     letter-spacing: 0.03em;
     display: inline-block;
     margin-bottom: 16px;
+    padding: 0;
+    margin-right: 0;
 }
 
 
@@ -356,7 +350,6 @@ img {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 16px;
     max-width: 264px;
 }
 
